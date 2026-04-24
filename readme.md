@@ -1,0 +1,1 @@
+Creazione di una dashboard con tutti i vari elementi all'interno.
