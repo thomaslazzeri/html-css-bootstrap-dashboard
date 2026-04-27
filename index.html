@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="icon" type="image/png" href="img/duck.png" sizes="32x32">
 </head>
 
 <body>
@@ -16,8 +17,9 @@
       <a class="navbar-brand" href="#">
         <img src="./img/duck.png" alt="logo-duck" width="50" height="50" class="d-inline-block align-text-top">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler text-white border-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,7 +39,7 @@
         </ul>
         <form class="d-flex" role="Cerca">
           <input class="form-control me-2" type="Cerca" placeholder="Cerca" aria-label="Cerca" />
-          <button class="btn btn-outline-success text-white border-white" type="submit">Cerca</button>
+          <button class="btn btn-outline-white text-white border-white" type="submit">Cerca</button>
         </form>
       </div>
     </div>
@@ -55,7 +57,7 @@
             <thead>
               <tr>
                 <th scope="col" class="py-3">Titolo</th>
-                <th scope="col" class="py-3">Data Prestito</th>
+                <th scope="col" class="d-none d-md-table-cell py-3">Data Prestito</th>
                 <th scope="col" class="py-3">Stato</th>
                 <th scope="col" class="text-center py-3">Azioni</th>
               </tr>
@@ -63,7 +65,7 @@
             <tbody>
               <tr>
                 <th scope="row" class="fw-normal py-3">I pilastri della terra</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-success text-white border-0 rounded px-2">Disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -74,7 +76,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">I promessi sposi</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-success text-white border-0 rounded px-2">Disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -85,7 +87,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">Il signore degli anelli</th>
-                <td>18/10/2023</td>
+                <td class="d-none d-md-table-cell">18/10/2023</td>
                 <td><button class="text-nowrap bg-warning text-white border-0 rounded px-2">In prestito</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -96,7 +98,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">Harry Potter e la pietra filosofale</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-success text-white border-0 rounded px-2">Disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -107,7 +109,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">Il codice Da Vinci</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-danger text-white border-0 rounded px-2">Non disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -118,7 +120,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">Shining</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-success text-white border-0 rounded px-2">Disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -129,7 +131,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">La divina commedia</th>
-                <td>21/09/2023</td>
+                <td class="d-none d-md-table-cell">21/09/2023</td>
                 <td><button class="text-nowrap bg-warning text-white border-0 rounded px-2">In prestito</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -140,7 +142,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">Il trono di spade</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-success text-white border-0 rounded px-2">Disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -151,7 +153,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">Il mondo di Sofia</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-danger text-white border-0 rounded px-2">Non disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -162,7 +164,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">Le cronache di Narnia: il leone, la strega e l'armadio</th>
-                <td>25/07/2023</td>
+                <td class="d-none d-md-table-cell">25/07/2023</td>
                 <td><button class="text-nowrap bg-warning text-white border-0 rounded px-2">In prestito</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -173,7 +175,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">Il piccolo principe</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-success text-white border-0 rounded px-2">Disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -184,7 +186,7 @@
               </tr>
               <tr>
                 <th scope="row" class="fw-normal py-3">La storia infinita</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td><button class="text-nowrap bg-success text-white border-0 rounded px-2">Disponibile</button></td>
                 <td class="text-center text-nowrap">
                   <button class="text-secondary border-secondary rounded px-2 py-1"><i
@@ -196,7 +198,6 @@
             </tbody>
           </table>
         </div>
-
         <div class="col-12 col-lg-4">
           <div class="row">
             <!-- Colonna Sidebar: Todo e FAQ (a destra su desktop) -->
@@ -214,14 +215,13 @@
                       <input class="form-check-input me-1" type="checkbox" value="">
                       mandare avvisi prestiti scaduti
                     </li>
-                     <li class="list-group-item">
+                    <li class="list-group-item">
                       <input class="form-check-input me-1" type="checkbox" value="">
                       Ordinare nuovi libri
                     </li>
                   </ul>
                 </div>
               </div>
-
               <!-- Sezione FAQ (Accordion) -->
               <div class="card">
                 <div class="card-header text-dark">F.A.Q.</div>
@@ -253,7 +253,7 @@
                         </div>
                       </div>
                     </div>
-                      <div class="accordion-item">
+                    <div class="accordion-item">
                       <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#faq3">
