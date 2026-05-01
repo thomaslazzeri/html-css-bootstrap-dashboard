@@ -1,1 +1,1 @@
-Creazione di una dashboard con tutti i vari elementi all'interno.
+Creazione di una dashboard con tutti i vari elementi all'interno. Con aggiunta pagina link con i vari form per un nuovo libro.
